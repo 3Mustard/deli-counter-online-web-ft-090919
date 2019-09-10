@@ -16,3 +16,7 @@ def take_a_number(array,name)
   line_position = array.size
   puts "Welcome, #{name}. You are number #{line_position} in line."
 end
+
+def now_serving(array)
+  next_customer = array.shift
+end
