@@ -5,5 +5,8 @@ def line(array)
       index += 1
       current_line << "#{index}. #{name}"
     end
-    puts "The line is currently: " + current_line.join
+    puts "The line is currently: " + current_line.join(" ")
+  else
+    puts "The line is currently empty."
+  end
 end
