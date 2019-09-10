@@ -1,4 +1,6 @@
 def line(array)
+  current_line = []
   if line.size > 0
-    array.
+    array.each_with_index do |name,index|
+      
 end
