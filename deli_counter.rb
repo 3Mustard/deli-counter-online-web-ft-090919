@@ -18,5 +18,10 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-  next_customer = array.shift
+  if array.size > 0
+    next_customer = array.shift
+    puts "Currently serving #{next_customer}."
+  else
+    puts "There is nobody waiting to be served!"
+  end
 end
